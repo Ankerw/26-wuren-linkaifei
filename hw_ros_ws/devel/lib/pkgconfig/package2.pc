@@ -1,0 +1,8 @@
+prefix=/home/anker/hw_all/hw_ros_ws/devel
+
+Name: package2
+Description: Description of package2
+Version: 0.0.0
+Cflags: -I/home/anker/hw_all/hw_ros_ws/devel/include -I/home/anker/hw_all/hw_ros_ws/src/package2/include
+Libs: -L${prefix}/lib -lpackage2
+Requires: message_generation roscpp rospy std_msgs
