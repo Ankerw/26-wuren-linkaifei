@@ -1,2 +1,0 @@
-fsd_common_msgs:package2
--DCATKIN_DEVEL_PREFIX=/home/anker/hw_ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/anker/hw_ros_ws/install -G Unix Makefiles
