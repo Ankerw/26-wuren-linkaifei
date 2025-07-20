@@ -1,0 +1,10 @@
+<launch>
+
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
+<node pkg="package2" type="control" name="control" output="screen"/>
+<node pkg="package2" type="publisher.py" name="turtle_linear_speed_publisher" output="screen"/>
+<rosparam command="load" file="$(find package2)/config/params.yaml"/>
+
+
+
+</launch>
