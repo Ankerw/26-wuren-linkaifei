@@ -32,7 +32,7 @@ class TurtleController
 
         pub.publish(cmd_vel);
         ROS_INFO("Control: linear_x=%.2f, linear_y=%.2f, angular_z=%.2f", 
-                 msg->linear_x, msg->linear_y, turtle_angular_speed); //发布控制指令
+                 msg->linear_x, msg->linear_y, turtle_angular_speed); 
     } 
  
     
